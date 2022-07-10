@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g  -rdynamic CMakeFiles/test_pool.dir/ngx_pool.cpp.o CMakeFiles/test_pool.dir/test.cpp.o  -o test_pool 

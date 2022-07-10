@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(test_pool)
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} -g)
+add_executable(test_pool ngx_pool.cpp test.cpp ngx_pool.h sgi_pool.h)
