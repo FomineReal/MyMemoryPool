@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liu/Documents/MemoryPool/ngx_pool.cpp
+ngx_pool.h
+/home/liu/Documents/MemoryPool/ngx_pool.h
+
+/home/liu/Documents/MemoryPool/ngx_pool.h
+stdlib.h
+-
+memory.h
+-
+stdint.h
+-
+
+/home/liu/Documents/MemoryPool/sgi_pool.h
+mutex
+-
+stdlib.h
+-
+iostream
+-
+
+/home/liu/Documents/MemoryPool/test.cpp
+ngx_pool.h
+/home/liu/Documents/MemoryPool/ngx_pool.h
+sgi_pool.h
+/home/liu/Documents/MemoryPool/sgi_pool.h
+iostream
+-
+vector
+-
+
